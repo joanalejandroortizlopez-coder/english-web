@@ -61,7 +61,7 @@ if topic == "1. Articles (A/An)":
     st.subheader("2. Visual Examples / Ejemplos Visuales")
     
     # URL de imagen representativa (Puedes cambiar este link por cualquier imagen .jpg o .png)
-    image_url = image_url = "https://www.thefluenteveryday.com/wp-content/uploads/2018/09/a-an-the-articles.png"
+    image_url = image_url = "https://github.com/joanalejandroortizlopez-coder/english-web/blob/main/a-an.jpg?raw=true"
     st.image(image_url, caption="A vs An rules", width=400)
 
     st.table({
