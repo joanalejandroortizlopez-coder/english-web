@@ -61,7 +61,7 @@ if topic == "1. Articles (A/An)":
     st.subheader("2. Visual Examples / Ejemplos Visuales")
     
     # URL de imagen representativa (Puedes cambiar este link por cualquier imagen .jpg o .png)
-    image_url = "https://www.purposefulenglish.com/blog/8-parts-of-speech"
+    image_url = "https://7esl.com/wp-content/uploads/2018/02/Articles-A-An-The.jpg"
     st.image(image_url, caption="A vs An rules", width=400)
 
     st.table({
@@ -120,7 +120,7 @@ if topic == "2. Subject Pronouns":
     st.subheader("2. Chart and Examples / Tabla y Ejemplos")
     
     # URL de imagen representativa sobre Pronombres
-    image_url_2 = "https://blog.trainlang.com/ingles/pronombre-ingles/"
+    image_url_2 = "https://7esl.com/wp-content/uploads/2018/01/Subject-Pronouns.jpg"
     st.image(image_url_2, caption="Subject Pronouns Overview", width=500)
 
     st.table({
@@ -181,7 +181,7 @@ if topic == "3. Verb To Be":
     st.subheader("2. Visual Guide & Exceptions / Guía Visual y Excepciones")
     
     # URL de imagen educativa
-    image_url_3 = "https://7esl.com/wp-content/uploads/2018/05/Verb-to-Be.jpg"
+    image_url_3 = "https://7esl.com/wp-content/uploads/2018/02/Verb-to-be.jpg"
     st.image(image_url_3, caption="Verb To Be Conjugation Chart", use_container_width=True)
 
     with st.expander("⚠️ Important Exception / Excepción Importante"):
@@ -240,7 +240,7 @@ if topic == "4. Contractions":
     st.subheader("2. Common Examples / Ejemplos Comunes")
     
     # Imagen sugerida (Link directo)
-    image_url_4 = "https://englishstudyhere.com/wp-content/uploads/2018/10/Contractions-in-English.png"
+    image_url_4 = "https://7esl.com/wp-content/uploads/2018/01/Contractions-in-English.jpg"
     st.image(image_url_4, caption="Guide to English Contractions", use_container_width=True)
 
     # Tabla comparativa
@@ -314,7 +314,7 @@ if topic == "5. Adjectives":
     })
 
     # Imagen de referencia
-    img_adj = "https://d20ohkaloyme4g.cloudfront.net/img/document_thumbnails/4780695027581699709d7c30669222c8/thumb_1200_1553.png"
+    img_adj = "https://7esl.com/wp-content/uploads/2018/05/Adjectives-1.jpg"
     st.image(img_adj, caption="Adjective Hierarchy Chart", use_container_width=True)
 
     # 3. Practice Activity (3 Points)
@@ -376,7 +376,7 @@ if topic == "6. Word Order":
     st.warning("Rule: Place comes BEFORE Time. / Regla: El Lugar va ANTES que el Tiempo.")
     
     # Imagen educativa sobre el orden SVO
-    image_url_6 = "https://www.allthingsgrammar.com/uploads/2/3/2/9/23290220/published/word-order-svo.png"
+    image_url_6 = "https://wordorder.top/img/word-order-in-english-sentences.png"
     st.image(image_url_6, caption="Subject + Verb + Object + Place + Time", use_container_width=True)
 
     st.table({
@@ -439,7 +439,7 @@ if topic == "7. Countable/Uncountable":
     # 2. Image (Maintaining the same style)
     st.subheader("2. Visual Guide / Guía Visual")
     # Usando el link de Wikimedia que es más estable
-    image_url_7 = "https://upload.wikimedia.org/wikipedia/commons/b/b4/Countable_and_uncountable_nouns.png"
+    image_url_7 = "https://7esl.com/wp-content/uploads/2018/01/Countable-and-Uncountable-Nouns-1.jpg"
     st.image(image_url_7, caption="Countable vs Uncountable Examples", use_container_width=True)
 
     # TABLA EXTENDIDA DE TIPOS (Aquí están todos los que mencionaste)
@@ -503,7 +503,7 @@ if topic == "8. Quantifiers":
     st.subheader("2. Examples in Context / Ejemplos en Contexto")
     
     # Imagen de referencia para cuantificadores
-    image_url_8 = "https://7esl.com/wp-content/uploads/2018/01/Quantifiers-1.jpg"
+    image_url_8 = "https://cdn.grammarclancy.com/wp-content/uploads/2019/11/quantifiers-much-many-a-lot-of.png"
     st.image(image_url_8, caption="Quantifiers Guide", use_container_width=True)
 
     st.table({
@@ -573,7 +573,7 @@ if topic == "9. Numbers":
     # 3. Imagen Educativa
     st.subheader("3. Visual Reference Chart / Tabla Visual")
     # 
-    image_url_9 = "https://www.woodwardenglish.com/wp-content/uploads/2013/05/cardinal-ordinal-numbers-english.jpg"
+    image_url_9 = "https://7esl.com/wp-content/uploads/2018/01/Numbers-Vocabulary.jpg"
     st.image(image_url_9, caption="Cardinal vs Ordinal Chart", use_container_width=True)
 
     # 4. Tabla de ejemplos complejos
@@ -643,7 +643,7 @@ if topic == "10. Telling Time":
     st.write("Divide the clock in two halves: **PAST** (minutes 1-30) and **TO** (minutes 31-59).")
     
     # 
-    img_time = "https://www.woodwardenglish.com/wp-content/uploads/2013/05/telling-the-time-in-english.jpg"
+    img_time = "https://7esl.com/wp-content/uploads/2018/01/Telling-the-Time.jpg"
     st.image(img_time, caption="Minutes + Past/To + Hour", use_container_width=True)
 
     # 3. Examples Table
@@ -714,7 +714,7 @@ if topic == "11. Comparatives/Superlatives":
     st.subheader("2. Comparison Chart / Tabla de Comparación")
     
     # 
-    img_comp = "https://www.allthingsgrammar.com/uploads/2/3/2/9/23290220/published/comparatives-and-superlatives-chart.png"
+    img_comp = "https://7esl.com/wp-content/uploads/2018/02/comparative-and-superlative-adjectives.jpg"
     st.image(img_comp, caption="Adjective Transformations", use_container_width=True)
 
     st.table({
@@ -798,7 +798,7 @@ if topic == "12. Simple Past":
     # 3. Visual Reference
     st.subheader("3. Common Irregular Verbs / Verbos Irregulares Comunes")
     # 
-    image_url_12 = "https://www.woodwardenglish.com/wp-content/uploads/2013/05/past-tense-regular-irregular-verbs.jpg"
+    image_url_12 = "https://7esl.com/wp-content/uploads/2018/02/Irregular-Verbs-1.jpg"
     st.image(image_url_12, caption="Past Tense Guide", use_container_width=True)
 
     # 4. Practice Activity (3 Points)
