@@ -61,7 +61,7 @@ if topic == "1. Articles (A/An)":
     st.subheader("2. Visual Examples / Ejemplos Visuales")
     
     # URL de imagen representativa (Puedes cambiar este link por cualquier imagen .jpg o .png)
-    image_url = "https://7esl.com/wp-content/uploads/2018/02/Articles-A-An-The.jpg"
+    image_url = "https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"
     st.image(image_url, caption="A vs An rules", width=400)
 
     st.table({
