@@ -121,7 +121,7 @@ if topic == "2. Subject Pronouns":
     
     # URL de imagen representativa sobre Pronombres
     image_url_2 = "https://github.com/joanalejandroortizlopez-coder/english-web/blob/main/english-pronouns.jpg?raw=true"
-    st.image(image_url_2, caption="Subject Pronouns Overview", width=500)
+    st.image(image_url_2, caption="Subject Pronouns Overview", width=400)
 
     st.table({
         "Pronoun / Pronombre": ["I", "You", "He / She", "It", "We", "They"],
@@ -182,7 +182,7 @@ if topic == "3. Verb To Be":
     
     # URL de imagen educativa
     image_url_3 = "https://github.com/joanalejandroortizlopez-coder/english-web/blob/main/Explicaci%C3%B3n-del-verbo-to-be.jpg?raw=true"
-    st.image(image_url_3, caption="Verb To Be Conjugation Chart", use_container_width=True)
+    st.image(image_url_3, caption="Verb To Be Conjugation Chart", width=400)
 
     with st.expander("⚠️ Important Exception / Excepción Importante"):
         st.write("**Age (Edad):** In English, we don't 'have' years, we 'ARE' years.")
@@ -241,7 +241,7 @@ if topic == "4. Contractions":
     
     # Imagen sugerida (Link directo)
     image_url_4 = "https://github.com/joanalejandroortizlopez-coder/english-web/blob/main/contractions.jpg?raw=true"
-    st.image(image_url_4, caption="Guide to English Contractions", use_container_width=True)
+    st.image(image_url_4, caption="Guide to English Contractions", width=400)
 
     # Tabla comparativa
     st.table({
@@ -315,7 +315,7 @@ if topic == "5. Adjectives":
 
     # Imagen de referencia
     img_adj = "https://github.com/joanalejandroortizlopez-coder/english-web/blob/main/adjetives.png?raw=true"
-    st.image(img_adj, caption="Adjective Hierarchy Chart", use_container_width=True)
+    st.image(img_adj, caption="Adjective Hierarchy Chart", width=400)
 
     # 3. Practice Activity (3 Points)
     st.subheader("3. Practice Activity / Actividad de Práctica")
@@ -377,7 +377,7 @@ if topic == "6. Word Order":
     
     # Imagen educativa sobre el orden SVO
     image_url_6 = "https://github.com/joanalejandroortizlopez-coder/english-web/blob/main/wordorder.jpg?raw=true"
-    st.image(image_url_6, caption="Subject + Verb + Object + Place + Time", use_container_width=True)
+    st.image(image_url_6, caption="Subject + Verb + Object + Place + Time", width=400)
 
     st.table({
         "Part": ["Subject", "Verb", "Object", "Place", "Time"],
@@ -440,7 +440,7 @@ if topic == "7. Countable/Uncountable":
     st.subheader("2. Visual Guide / Guía Visual")
     # Usando el link de Wikimedia que es más estable
     image_url_7 = "https://github.com/joanalejandroortizlopez-coder/english-web/blob/main/Countable-and-Uncountable-Nouns.webp?raw=true"
-    st.image(image_url_7, caption="Countable vs Uncountable Examples", use_container_width=True)
+    st.image(image_url_7, caption="Countable vs Uncountable Examples", width=400)
 
     # TABLA EXTENDIDA DE TIPOS (Aquí están todos los que mencionaste)
     st.subheader("3. All Categories / Todas las Categorías")
@@ -504,7 +504,7 @@ if topic == "8. Quantifiers":
     
     # Imagen de referencia para cuantificadores
     image_url_8 = "https://github.com/joanalejandroortizlopez-coder/english-web/blob/main/quantifiers-en-ingles-1024x1024.png?raw=true"
-    st.image(image_url_8, caption="Quantifiers Guide", use_container_width=True)
+    st.image(image_url_8, caption="Quantifiers Guide", width=400)
 
     st.table({
         "Quantifier": ["Many", "Much", "Some", "Any"],
@@ -574,7 +574,7 @@ if topic == "9. Numbers":
     st.subheader("3. Visual Reference Chart / Tabla Visual")
     # 
     image_url_9 = "https://github.com/joanalejandroortizlopez-coder/english-web/blob/main/numeros-ordinales-y-cardinales_1718363204.webp?raw=true"
-    st.image(image_url_9, caption="Cardinal vs Ordinal Chart", use_container_width=True)
+    st.image(image_url_9, caption="Cardinal vs Ordinal Chart", width=400)
 
     # 4. Tabla de ejemplos complejos
     st.subheader("4. More Examples / Más Ejemplos")
@@ -644,7 +644,7 @@ if topic == "10. Telling Time":
     
     # 
     img_time = "https://github.com/joanalejandroortizlopez-coder/english-web/blob/main/clock.webp?raw=true"
-    st.image(img_time, caption="Minutes + Past/To + Hour", use_container_width=True)
+    st.image(img_time, caption="Minutes + Past/To + Hour", width=400)
 
     # 3. Examples Table
     st.subheader("3. Examples / Ejemplos")
@@ -715,7 +715,7 @@ if topic == "11. Comparatives/Superlatives":
     
     # 
     img_comp = "https://github.com/joanalejandroortizlopez-coder/english-web/blob/main/comparativos-y-superlativos-en-ingles-1.webp?raw=true"
-    st.image(img_comp, caption="Adjective Transformations", use_container_width=True)
+    st.image(img_comp, caption="Adjective Transformations", width=400)
 
     st.table({
         "Adjective": ["Tall (1 syl)", "Big (1 syl)", "Happy (2 syl -y)", "Expensive (3 syl)"],
@@ -799,7 +799,7 @@ if topic == "12. Simple Past":
     st.subheader("3. Common Irregular Verbs / Verbos Irregulares Comunes")
     # 
     image_url_12 = "https://github.com/joanalejandroortizlopez-coder/english-web/blob/main/Simple%20Past%20Tense.jpg?raw=true"
-    st.image(image_url_12, caption="Past Tense Guide", use_container_width=True)
+    st.image(image_url_12, caption="Past Tense Guide", width=400)
 
     # 4. Practice Activity (3 Points)
     st.subheader("4. Practice Activity / Actividad de Práctica")
@@ -857,7 +857,7 @@ if topic == "13. Cooking Verbs":
     
     # Imagen con ilustraciones de verbos de cocina
     image_url_13 = "https://github.com/joanalejandroortizlopez-coder/english-web/blob/main/Cooking-Verbs-1.png.webp?raw=true"
-    st.image(image_url_13, caption="Cooking Actions Guide", use_container_width=True)
+    st.image(image_url_13, caption="Cooking Actions Guide", width=400)
 
     
 
