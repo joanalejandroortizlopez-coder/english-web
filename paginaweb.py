@@ -937,10 +937,10 @@ if topic == "14. Demonstratives":
         st.markdown("""
         <div class="spanish-text">
         Español:
-        * This: Este / Esta (Cerca y Singular).
-        * That: Ese / Aquel (Lejos y Singular).
-        * These: Estos / Estas (Cerca y Plural).
-        * Those: Esos / Aquellos (Lejos y Plural).
+         This: Este / Esta (Cerca y Singular).
+         That: Ese / Aquel (Lejos y Singular).
+         These: Estos / Estas (Cerca y Plural).
+         Those: Esos / Aquellos (Lejos y Plural).
         </div>
         """, unsafe_allow_html=True)
 
@@ -948,7 +948,7 @@ if topic == "14. Demonstratives":
     st.subheader("2. Visual Guide / Guía Visual")
     
     # Asegúrate de que el nombre de la imagen sea el correcto en tu GitHub
-    image_url_14 = "https://github.com/joanalejandroortizlopez-coder/english-web/blob/main/demonstratives.jpg?raw=true"
+    image_url_14 = "https://github.com/joanalejandroortizlopez-coder/english-web/blob/main/demonstratives-in-english-grammar-this-that-these-those-demonstrative-pronouns-demonstrative-determiners-how-to-use-learn-english-vocabulary-lesson-esl-vocaberry.png?raw=true"
     video_url_14 = "https://youtu.be/cnNB_ThNukc?si=oZlP_8kKY--Yjo4Q"
     
     st.image(image_url_14, caption="Demonstratives: Near vs Far", width=400)
@@ -985,4 +985,6 @@ if topic == "14. Demonstratives":
         st.success(f"Score: {score}/3")
         if score == 3:
             st.balloons()
-            st.write("✨ Excellent! You have mastered the Demonstratives.")
+            st.success("🎉 CONGRATULATIONS! You have successfully completed the entire course!")
+            st.confetti() # Si quieres más efectos, aunque balloons() ya es genial
+            st.write("✨ **Excellent! You have mastered all the topics.**")
