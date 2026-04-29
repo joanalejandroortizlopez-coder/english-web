@@ -986,5 +986,4 @@ if topic == "14. Demonstratives":
         if score == 3:
             st.balloons()
             st.success("🎉 CONGRATULATIONS! You have successfully completed the entire course!")
-            st.confetti() # Si quieres más efectos, aunque balloons() ya es genial
             st.write("✨ **Excellent! You have mastered all the topics.**")
