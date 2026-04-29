@@ -173,11 +173,11 @@ if topic == "3. Verb To Be":
     with col2:
         st.markdown("""
         <div class="spanish-text">
-        **Español:** Usamos el verbo 'To Be' para describir:
-        * **Identidad:** Yo soy Carlos.
-        * **Sentimientos:** Ella está feliz.
-        * **Ubicación:** Ellos están en la escuela.
-        * **Profesión:** Tú eres un estudiante.
+        Español: Usamos el verbo 'To Be' para describir:
+        Identidad: Yo soy Carlos.
+        Sentimientos: Ella está feliz.
+        Ubicación: Ellos están en la escuela.
+        Profesión: Tú eres un estudiante.
         </div>
         """, unsafe_allow_html=True)
 
@@ -186,7 +186,9 @@ if topic == "3. Verb To Be":
     
     # URL de imagen educativa
     image_url_3 = "https://github.com/joanalejandroortizlopez-coder/english-web/blob/main/Explicaci%C3%B3n-del-verbo-to-be.jpg?raw=true"
+    video_url = "https://youtu.be/nxk6IXlBqmU?si=4FWDab03SWK62U1O"
     st.image(image_url_3, caption="Verb To Be Conjugation Chart", width=400)
+    st.video(video_url)
 
     with st.expander("⚠️ Important Exception / Excepción Importante"):
         st.write("**Age (Edad):** In English, we don't 'have' years, we 'ARE' years.")
@@ -234,9 +236,9 @@ if topic == "4. Contractions":
     with col2:
         st.markdown("""
         <div class="spanish-text">
-        **Español:** Una contracción es una forma corta de dos palabras. Usamos un **apóstrofe (')** para reemplazar las letras que faltan.
-        * **Formal:** I am not hungry.
-        * **Informal:** I'm not hungry.
+        Español: Una contracción es una forma corta de dos palabras. Usamos un apóstrofe (') para reemplazar las letras que faltan.
+        Formal: I am not hungry.
+        Informal: I'm not hungry.
         </div>
         """, unsafe_allow_html=True)
 
@@ -245,7 +247,9 @@ if topic == "4. Contractions":
     
     # Imagen sugerida (Link directo)
     image_url_4 = "https://github.com/joanalejandroortizlopez-coder/english-web/blob/main/contractions.jpg?raw=true"
+    video_url = "https://youtu.be/vnB4Eu7X1Qg?si=Fpg8Nb_yEwriftYs"
     st.image(image_url_4, caption="Guide to English Contractions", width=400)
+    st.video(video_url)
 
     # Tabla comparativa
     st.table({
@@ -296,10 +300,10 @@ if topic == "5. Adjectives":
     with col2:
         st.markdown("""
         <div class="spanish-text">
-        **Español:**
-        * **Posición:** Los adjetivos van **ANTES** del sustantivo.
-        * **Sin Plural:** Los adjetivos nunca terminan en 's'.
-        * *Ejemplo:* Dos casas **grandes** (En inglés: Two big houses).
+        Español:
+        Posición:** Los adjetivos van ANTES del sustantivo.
+        Sin Plural:** Los adjetivos nunca terminan en 's'.
+        Ejemplo: Dos casas grandes (En inglés: Two big houses).
         </div>
         """, unsafe_allow_html=True)
 
@@ -319,7 +323,9 @@ if topic == "5. Adjectives":
 
     # Imagen de referencia
     img_adj = "https://github.com/joanalejandroortizlopez-coder/english-web/blob/main/adjetives.png?raw=true"
+    video_url = "https://youtu.be/4f3H12YNlxo?si=h35XVtNONCCQQtH7"
     st.image(img_adj, caption="Adjective Hierarchy Chart", width=400)
+    st.video(video_url)
 
     # 3. Practice Activity (3 Points)
     st.subheader("3. Practice Activity / Actividad de Práctica")
@@ -366,12 +372,12 @@ if topic == "6. Word Order":
     with col2:
         st.markdown("""
         <div class="spanish-text">
-        **Español:** La mayoría de las oraciones siguen un orden estricto:
-        1. **Sujeto:** Quién hace la acción.
-        2. **Verbo:** La acción.
-        3. **Objeto:** Quién recibe la acción.
+        Español: La mayoría de las oraciones siguen un orden estricto:
+        1. Sujeto: Quién hace la acción.
+        2. Verbo: La acción.
+        3. Objeto: Quién recibe la acción.
         
-        *Ejemplo:* **Yo** (S) **amo** (V) **la pizza** (O).
+        Ejemplo:* Yo (S) amo (V) la pizza (O).
         </div>
         """, unsafe_allow_html=True)
 
@@ -381,7 +387,9 @@ if topic == "6. Word Order":
     
     # Imagen educativa sobre el orden SVO
     image_url_6 = "https://github.com/joanalejandroortizlopez-coder/english-web/blob/main/wordorder.jpg?raw=true"
+    video_url = "https://youtu.be/LWigoLHN9WU?si=cPwkb5sofp4VOR2m"
     st.image(image_url_6, caption="Subject + Verb + Object + Place + Time", width=400)
+    st.video(video_url)
 
     st.table({
         "Part": ["Subject", "Verb", "Object", "Place", "Time"],
