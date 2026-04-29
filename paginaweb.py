@@ -735,7 +735,7 @@ if topic == "11. Comparatives/Superlatives":
     
     # 
     img_comp = "https://github.com/joanalejandroortizlopez-coder/english-web/blob/main/comparativos-y-superlativos-en-ingles-1.webp?raw=true"
-    video_url = ""
+    video_url = "https://youtu.be/p0kwsNq3A2w?si=PJ9DMfVK8WwP4qPw"
     st.image(img_comp, caption="Adjective Transformations", width=400)
     st.video(video_url)
 
@@ -821,7 +821,9 @@ if topic == "12. Simple Past":
     st.subheader("3. Common Irregular Verbs / Verbos Irregulares Comunes")
     # 
     image_url_12 = "https://github.com/joanalejandroortizlopez-coder/english-web/blob/main/Simple%20Past%20Tense.jpg?raw=true"
+    video_url = "https://youtu.be/DQlzxDz5T0w?si=gkb7IZgip6v1Dv4B"
     st.image(image_url_12, caption="Past Tense Guide", width=400)
+    st.video(video_url)
 
     # 4. Practice Activity (3 Points)
     st.subheader("4. Practice Activity / Actividad de Práctica")
@@ -879,7 +881,9 @@ if topic == "13. Cooking Verbs":
     
     # Imagen con ilustraciones de verbos de cocina
     image_url_13 = "https://github.com/joanalejandroortizlopez-coder/english-web/blob/main/Cooking-Verbs-1.png.webp?raw=true"
+    video_url = "https://youtu.be/oqfh5i5Zfcs?si=o-18DBEHrEomQkRn"
     st.image(image_url_13, caption="Cooking Actions Guide", width=400)
+    st.video(video_url)
 
     
 
