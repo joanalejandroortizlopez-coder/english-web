@@ -937,10 +937,10 @@ if topic == "14. Demonstratives":
         st.markdown("""
         <div class="spanish-text">
         Español:
-        * This: Este / Esta (Cerca).
-        * That: Ese / Aquel (Lejos).
-        * These: Estos / Estas (Cerca).
-        * Those: Esos / Aquellos (Lejos).
+        * This: Este / Esta (Cerca y Singular).
+        * That: Ese / Aquel (Lejos y Singular).
+        * These: Estos / Estas (Cerca y Plural).
+        * Those: Esos / Aquellos (Lejos y Plural).
         </div>
         """, unsafe_allow_html=True)
 
@@ -949,7 +949,7 @@ if topic == "14. Demonstratives":
     
     # Asegúrate de que el nombre de la imagen sea el correcto en tu GitHub
     image_url_14 = "https://github.com/joanalejandroortizlopez-coder/english-web/blob/main/demonstratives.jpg?raw=true"
-    video_url_14 = "https://www.youtube.com/watch?v=vV_v_YFp_xk"
+    video_url_14 = "https://youtu.be/cnNB_ThNukc?si=oZlP_8kKY--Yjo4Q"
     
     st.image(image_url_14, caption="Demonstratives: Near vs Far", width=400)
     st.video(video_url_14)
