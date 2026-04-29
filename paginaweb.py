@@ -27,9 +27,56 @@ topic = st.sidebar.selectbox(
 # Aquí es donde insertaremos la lógica de cada número que me pidas.
 
 if topic == "Home":
-    st.title("Welcome to your English Learning Space! 🚀")
-    st.write("Select a topic from the sidebar to start learning.")
-    st.info("Selecciona un tema en la barra lateral para comenzar a aprender.")
+    # --- CABECERA ---
+    st.title("🚀 Welcome to your English Learning Space!")
+    st.markdown("---") # Línea decorativa horizontal
+    
+    # --- MENSAJE DE BIENVENIDA ---
+    st.header("✨ Your journey to English mastery starts here.")
+    st.write("Explore our interactive modules designed to help you learn grammar faster and better.")
+    
+    # --- DISEÑO DE TARJETAS (Usando columnas para decorar) ---
+    st.markdown("### 🛠️ What will you find inside?")
+    
+    col1, col2, col3 = st.columns(3)
+    
+    with col1:
+        st.markdown("""
+        #### 📚 Learn
+        Detailed grammar lessons 
+        explained in both English 
+        and Spanish.
+        """)
+        
+    with col2:
+        st.markdown("""
+        #### 🎥 Watch
+        High-quality video tutorials 
+        to improve your listening 
+        and understanding.
+        """)
+        
+    with col3:
+        st.markdown("""
+        #### ✍️ Practice
+        Interactive quizzes with 
+        real-time feedback and 
+        celebration effects.
+        """)
+
+    st.markdown("---")
+
+    # --- BLOQUES DE INFORMACIÓN DECORATIVOS ---
+    st.info("💡 **Pro Tip:** Don't rush! Take one topic at a time and do the activities twice.")
+    
+    st.success("🎯 **Goal:** Complete all 14 topics to unlock your full potential.")
+    
+    # --- PIE DE PÁGINA DECORATIVO ---
+    st.markdown("""
+    <div style='text-align: center; color: gray; font-size: 0.8em; margin-top: 50px;'>
+        Interactive Grammar Hub • Developed with Python & Streamlit • 2024
+    </div>
+    """, unsafe_allow_html=True)
 
 # --- ESPACIO PARA TEMAS ---
 # Cuando me digas un número, te daré el bloque de código que va aquí.
