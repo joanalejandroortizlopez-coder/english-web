@@ -62,7 +62,9 @@ if topic == "1. Articles (A/An)":
     
     # URL de imagen representativa (Puedes cambiar este link por cualquier imagen .jpg o .png)
     image_url = image_url = "https://github.com/joanalejandroortizlopez-coder/english-web/blob/main/a-an.jpg?raw=true"
+    video_url = "https://youtu.be/ZA8iL8H_JGk?si=ijcZlDJvqklKdsQE"
     st.image(image_url, caption="A vs An rules", width=400)
+    st.video(video_url) width=400
 
     st.table({
         "Rule / Regla": ["Consonant Sound", "Vowel Sound", "The 'H' Exception", "The 'U' Exception"],
