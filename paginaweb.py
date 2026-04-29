@@ -452,7 +452,9 @@ if topic == "7. Countable/Uncountable":
     st.subheader("2. Visual Guide / Guía Visual")
     # Usando el link de Wikimedia que es más estable
     image_url_7 = "https://github.com/joanalejandroortizlopez-coder/english-web/blob/main/Countable-and-Uncountable-Nouns.webp?raw=true"
+    video_url = "https://youtu.be/nKIOHbieDrQ?si=6nEUWslzB5lqX62m"
     st.image(image_url_7, caption="Countable vs Uncountable Examples", width=400)
+    st.video(video_url)
 
     # TABLA EXTENDIDA DE TIPOS (Aquí están todos los que mencionaste)
     st.subheader("3. All Categories / Todas las Categorías")
@@ -516,8 +518,10 @@ if topic == "8. Quantifiers":
     
     # Imagen de referencia para cuantificadores
     image_url_8 = "https://github.com/joanalejandroortizlopez-coder/english-web/blob/main/quantifiers-en-ingles-1024x1024.png?raw=true"
+    video_url = "https://youtu.be/-oll5WNHWAk?si=dFtJlYz8JKGTPHWL"
     st.image(image_url_8, caption="Quantifiers Guide", width=400)
-
+    st.video(video_url)
+    
     st.table({
         "Quantifier": ["Many", "Much", "Some", "Any"],
         "Example / Ejemplo": ["Many books", "Much water", "Some apples", "Any sugar"],
@@ -586,7 +590,9 @@ if topic == "9. Numbers":
     st.subheader("3. Visual Reference Chart / Tabla Visual")
     # 
     image_url_9 = "https://github.com/joanalejandroortizlopez-coder/english-web/blob/main/numeros-ordinales-y-cardinales_1718363204.webp?raw=true"
+    video_url = "https://youtu.be/cvnseqvcwcE?si=QKuhbMK5cO2NRZhp"
     st.image(image_url_9, caption="Cardinal vs Ordinal Chart", width=400)
+    st.video(video_url)
 
     # 4. Tabla de ejemplos complejos
     st.subheader("4. More Examples / Más Ejemplos")
@@ -656,7 +662,9 @@ if topic == "10. Telling Time":
     
     # 
     img_time = "https://github.com/joanalejandroortizlopez-coder/english-web/blob/main/clock.webp?raw=true"
+    video_url = "https://youtu.be/3YJxNWyc-Tw?si=xAifU-2ARcYpXZSx"
     st.image(img_time, caption="Minutes + Past/To + Hour", width=400)
+    st.video(video_url)
 
     # 3. Examples Table
     st.subheader("3. Examples / Ejemplos")
@@ -727,7 +735,9 @@ if topic == "11. Comparatives/Superlatives":
     
     # 
     img_comp = "https://github.com/joanalejandroortizlopez-coder/english-web/blob/main/comparativos-y-superlativos-en-ingles-1.webp?raw=true"
+    video_url = ""
     st.image(img_comp, caption="Adjective Transformations", width=400)
+    st.video(video_url)
 
     st.table({
         "Adjective": ["Tall (1 syl)", "Big (1 syl)", "Happy (2 syl -y)", "Expensive (3 syl)"],
