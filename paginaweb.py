@@ -44,14 +44,14 @@ if topic == "1. Articles (A/An)":
     col1, col2 = st.columns(2)
     with col1:
         st.markdown("""
-        **English:** We use 'A' or 'An' for singular, non-specific nouns. 
-        * Use **'A'** before words starting with a consonant sound.
-        * Use **'An'** before words starting with a vowel sound.
+        English: We use 'A' or 'An' for singular, non-specific nouns. 
+         Use 'A' before words starting with a consonant sound.
+         Use 'An' before words starting with a vowel sound.
         """)
     with col2:
         st.markdown("""
         <div class="spanish-text">
-        **Español:** Usamos 'A' o 'An' para sustantivos singulares no específicos.
+        Español:** Usamos 'A' o 'An' para sustantivos singulares no específicos.
         * Usa **'A'** antes de palabras que comienzan con sonido de consonante.
         * Usa **'An'** antes de palabras que comienzan con sonido de vocal.
         </div>
