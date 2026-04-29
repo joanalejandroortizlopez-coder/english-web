@@ -443,8 +443,8 @@ if topic == "7. Countable/Uncountable":
     with col2:
         st.markdown("""
         <div class="spanish-text">
-        **Español:** * **Contables:** Cosas que podemos contar. Tienen forma plural.
-        * **Incontables:** Sustantivos en masa, líquidos y conceptos abstractos. **Nunca** tienen plural y no usan 'a/an'.
+        Español: Contables: Cosas que podemos contar. Tienen forma plural.
+        Incontables: Sustantivos en masa, líquidos y conceptos abstractos. Nunca tienen plural y no usan 'a/an'.
         </div>
         """, unsafe_allow_html=True)
 
@@ -503,11 +503,11 @@ if topic == "8. Quantifiers":
     with col2:
         st.markdown("""
         <div class="spanish-text">
-        **Español:**
-        * **Many:** Se usa con contables (plural).
-        * **Much:** Se usa con incontables (singular).
-        * **Some:** Se usa en oraciones afirmativas (+).
-        * **Any:** Se usa en negativas (-) e interrogativas (?).
+        Español:
+        Many: Se usa con contables (plural).
+        Much: Se usa con incontables (singular).
+        Some: Se usa en oraciones afirmativas (+).
+        Any: Se usa en negativas (-) e interrogativas (?).
         </div>
         """, unsafe_allow_html=True)
 
@@ -562,10 +562,10 @@ if topic == "9. Numbers":
     with col2:
         st.markdown("""
         <div class="spanish-text">
-        **Ordinal Numbers (Position):**
+        Ordinal Numbers (Position):
         Used to tell the *order* or *date*.
-        * *Examples:* 1st (first), 2nd (second), 3rd (third).
-        * *Use:* "I am the **second** son."
+        Examples: 1st (first), 2nd (second), 3rd (third).
+        Use: "I am the second son."
         </div>
         """, unsafe_allow_html=True)
 
@@ -640,13 +640,13 @@ if topic == "10. Telling Time":
     with col2:
         st.markdown("""
         <div class="spanish-text">
-        **Español:** Hay dos formas de decir la hora:
-        1. **Digital:** Hora + Minutos (Ten twenty).
-        2. **Analógica:** Minutos + PAST/TO + Hora.
+        Español: Hay dos formas de decir la hora:
+        1. Digital: Hora + Minutos (Ten twenty).
+        2. Analógica: Minutos + PAST/TO + Hora.
         
-        * **O'clock:** En punto.
-        * **Half past:** Y media.
-        * **Quarter past/to:** Y cuarto / Cuarto para.
+        O'clock: En punto.
+        Half past: Y media.
+        Quarter past/to: Y cuarto / Cuarto para.
         </div>
         """, unsafe_allow_html=True)
 
@@ -712,13 +712,13 @@ if topic == "11. Comparatives/Superlatives":
     with col2:
         st.markdown("""
         <div class="spanish-text">
-        **Adjetivos Cortos (1 Sílaba):**
-        * **Comparativo:** Agrega **-er** (Más alto).
-        * **Superlativo:** Agrega **-est** (El más alto).
+        Adjetivos Cortos (1 Sílaba):
+        Comparativo: Agrega -er (Más alto).
+        Superlativo: Agrega -est (El más alto que).
         
-        **Adjetivos Largos (2+ Sílabas):**
-        * **Comparativo:** Usa **More** (Más inteligente).
-        * **Superlativo:** Usa **The Most** (El más inteligente).
+        Adjetivos Largos (2+ Sílabas):
+        Comparativo: Usa More (Más inteligente).
+        Superlativo: Usa The Most (El más inteligente).
         </div>
         """, unsafe_allow_html=True)
 
@@ -784,10 +784,10 @@ if topic == "12. Simple Past":
     with col2:
         st.markdown("""
         <div class="spanish-text">
-        **Verbos Regulares:**
-        Solo añade **-ed** al final del verbo.
-        * Play -> Play**ed**
-        * Watch -> Watch**ed**
+        Verbos Regulares:
+        Solo añade -ed al final del verbo.
+        * Play -> Play-ed
+        * Watch -> Watch-ed
         
         **Verbos Irregulares:**
         Cambian su forma completamente (hay que memorizarlos).
@@ -855,12 +855,12 @@ if topic == "13. Cooking Verbs":
     with col2:
         st.markdown("""
         <div class="spanish-text">
-        **Español:**
-        * **Chop:** Picar o trocear.
-        * **Boil:** Hervir.
-        * **Bake:** Hornear (pan o pasteles).
-        * **Whisk:** Batir (huevos o crema).
-        * **Peel:** Pelar (quitar la cáscara).
+        Español:
+        Chop: Picar o trocear.
+        Boil: Hervir.
+        Bake: Hornear (pan o pasteles).
+        Whisk: Batir (huevos o crema).
+        Peel: Pelar (quitar la cáscara).
         </div>
         """, unsafe_allow_html=True)
 
