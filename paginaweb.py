@@ -20,7 +20,7 @@ topic = st.sidebar.selectbox(
     ["Home", "1. Articles (A/An)", "2. Subject Pronouns", "3. Verb To Be", 
      "4. Contractions", "5. Adjectives", "6. Word Order", "7. Countable/Uncountable",
      "8. Quantifiers", "9. Numbers", "10. Telling Time", 
-     "11. Comparatives/Superlatives", "12. Simple Past", "13. Cooking Verbs"]
+     "11. Comparatives/Superlatives", "12. Simple Past", "13. Cooking Verbs", "14. Demonstratives"]
 )
 
 # --- FUNCIÓN PARA MOSTRAR CONTENIDO ---
@@ -916,5 +916,73 @@ if topic == "13. Cooking Verbs":
         st.success(f"Score: {score}/3")
         if score == 3:
             st.balloons()
-            st.write("🎉 **CONGRATULATIONS!** You have finished all 13 topics successfully!")
-            
+
+# --- TEMA 14: DEMONSTRATIVES ---
+if topic == "14. Demonstratives":
+    st.title("👈 Topic 14: Demonstratives")
+    st.info("Learn how to point out specific objects. / Aprende a señalar objetos específicos.")
+
+    # 1. Explanation with Columns
+    st.subheader("1. Concept / Concepto")
+    col1, col2 = st.columns(2)
+    with col1:
+        st.markdown("""
+        **English:**
+        * **This:** Singular and Near (here).
+        * **That:** Singular and Far (there).
+        * **These:** Plural and Near (here).
+        * **Those:** Plural and Far (there).
+        """)
+    with col2:
+        st.markdown("""
+        <div class="spanish-text">
+        Español:
+        * This: Este / Esta (Cerca).
+        * That: Ese / Aquel (Lejos).
+        * These: Estos / Estas (Cerca).
+        * Those: Esos / Aquellos (Lejos).
+        </div>
+        """, unsafe_allow_html=True)
+
+    # 2. Visual Vocabulary (Image and Video)
+    st.subheader("2. Visual Guide / Guía Visual")
+    
+    # Asegúrate de que el nombre de la imagen sea el correcto en tu GitHub
+    image_url_14 = "https://github.com/joanalejandroortizlopez-coder/english-web/blob/main/demonstratives.jpg?raw=true"
+    video_url_14 = "https://www.youtube.com/watch?v=vV_v_YFp_xk"
+    
+    st.image(image_url_14, caption="Demonstratives: Near vs Far", width=400)
+    st.video(video_url_14)
+
+    # 3. Reference Table
+    st.subheader("3. Grammar Table / Tabla de Referencia")
+    st.table({
+        "Demonstrative": ["This", "That", "These", "Those"],
+        "Number": ["Singular", "Singular", "Plural", "Plural"],
+        "Distance": ["Near (Cerca)", "Far (Lejos)", "Near (Cerca)", "Far (Lejos)"],
+        "Example": ["This is my car", "That is the moon", "These are my keys", "Those are mountains"]
+    })
+
+    # 4. Practice Activity (3 Points)
+    st.subheader("4. Practice Activity / Actividad de Práctica")
+    st.write("Choose the correct demonstrative pronoun:")
+
+    # Punto 1: Singular Cerca
+    p14_1 = st.selectbox("1. ________ (Cerca) is my favorite pencil.", ["-", "This", "That", "These"], key="dm_1")
+    
+    # Punto 2: Plural Lejos
+    p14_2 = st.selectbox("2. Look at ________ (Lejos) stars in the sky.", ["-", "These", "Those", "This"], key="dm_2")
+    
+    # Punto 3: Plural Cerca
+    p14_3 = st.text_input("3. ________ (Estas) are my new shoes.", placeholder="Starts with T...", key="dm_3")
+
+    if st.button("Check Answers / Verificar"):
+        score = 0
+        if p14_1 == "This": score += 1
+        if p14_2 == "Those": score += 1
+        if p14_3.lower().strip() == "these": score += 1
+        
+        st.success(f"Score: {score}/3")
+        if score == 3:
+            st.balloons()
+            st.write("✨ Excellent! You have mastered the Demonstratives.")
